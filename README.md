@@ -66,16 +66,17 @@ Connected to instance using PEM key.
 
 ### 3️⃣ Tool Installation Verification
 
-Verified installed tools:
+- Verified installed tools:
+  
+- kubectl
+- eksctl
+- aws cli
 
-kubectl
-eksctl
-aws cli
+![EC2 Instance Running](Screenshots/03-tools-installed.png)
 
-📸 Screenshot:
+---
 
-03-tools-installed.png
-4️⃣ Create EKS Cluster
+### 4️⃣ Create EKS Cluster
 
 Command used:
 
