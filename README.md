@@ -15,23 +15,33 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 ![Architecture Diagram](Screenshots/architecture-diagram.png)
 
 ---
-🛠️ Technologies Used
-Amazon EKS (Elastic Kubernetes Service)
-EC2 (t3.small worker nodes)
-IAM (Roles & Permissions)
-Kubernetes (kubectl)
-eksctl
-Docker (container runtime)
-AWS CLI
-NGINX container
-🎯 Objectives
-Create and manage Kubernetes cluster using EKS
-Deploy containerized application (NGINX)
-Expose application using LoadBalancer service
-Perform scaling operations
-Execute rolling updates
-Learn Kubernetes lifecycle management
-⚙️ Step-by-Step Implementation
+
+## 🛠️ Technologies Used
+
+-Amazon EKS (Elastic Kubernetes Service)
+-EC2 (t3.small worker nodes)
+-IAM (Roles & Permissions)
+-Kubernetes (kubectl)
+-eksctl
+-Docker (container runtime)
+-AWS CLI
+-NGINX container
+
+---
+
+## 🎯 Objectives
+
+-Create and manage Kubernetes cluster using EKS
+-Deploy containerized application (NGINX)
+-Expose application using LoadBalancer service
+-Perform scaling operations
+-Execute rolling updates
+-Learn Kubernetes lifecycle management
+
+---
+
+## ⚙️ Step-by-Step Implementation
+
 1️⃣ EC2 Management Instance Setup
 Created EC2 instance (eks-management)
 Installed required tools:
