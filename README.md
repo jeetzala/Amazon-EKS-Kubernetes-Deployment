@@ -97,24 +97,26 @@ Connected to instance using PEM key.
 ### 5️⃣ Verify Cluster Nodes
 kubectl get nodes
 
-📸 Screenshot:
+![EC2 Instance Running](Screenshots/05-kubectl-nodes-ready.png)
 
-05-kubectl-nodes-ready.png
-6️⃣ Deploy NGINX Application
+---
 
-Created deployment:
+### 6️⃣ Deploy NGINX Application
 
-nginx:latest
-replicas: 2
+#### Created deployment:
 
-Applied using:
+- nginx:latest
+- replicas: 2
 
-kubectl apply -f deployment.yaml
+#### Applied using:
 
-📸 Screenshot:
+- kubectl apply -f deployment.yaml
 
-06-pods-running.png
-7️⃣ Expose Application via LoadBalancer
+![EC2 Instance Running](Screenshots/06-pods-running.png)
+
+---
+
+### 7️⃣ Expose Application via LoadBalancer
 kubectl expose deployment nginx-deployment \
 --type=LoadBalancer \
 --name=nginx-service \
