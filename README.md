@@ -31,12 +31,12 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 
 ## 🎯 Objectives
 
--Create and manage Kubernetes cluster using EKS
--Deploy containerized application (NGINX)
--Expose application using LoadBalancer service
--Perform scaling operations
--Execute rolling updates
--Learn Kubernetes lifecycle management
+- Create and manage Kubernetes cluster using EKS
+- Deploy containerized application (NGINX)
+- Expose application using LoadBalancer service
+- Perform scaling operations
+- Execute rolling updates
+- Learn Kubernetes lifecycle management
 
 ---
 
