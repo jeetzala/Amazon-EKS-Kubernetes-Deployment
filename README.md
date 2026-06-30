@@ -42,7 +42,7 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 
 ## ⚙️ Step-by-Step Implementation
 
-1️⃣ EC2 Management Instance Setup
+## 1️⃣ EC2 Management Instance Setup
 Created EC2 instance (eks-management)
 Installed required tools:
 kubectl
