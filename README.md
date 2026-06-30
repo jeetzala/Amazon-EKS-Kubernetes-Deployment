@@ -18,14 +18,14 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 
 ## 🛠️ Technologies Used
 
--Amazon EKS (Elastic Kubernetes Service)
--EC2 (t3.small worker nodes)
--IAM (Roles & Permissions)
--Kubernetes (kubectl)
--eksctl
--Docker (container runtime)
--AWS CLI
--NGINX container
+- Amazon EKS (Elastic Kubernetes Service)
+- EC2 (t3.small worker nodes)
+- IAM (Roles & Permissions)
+- Kubernetes (kubectl)
+- eksctl
+- Docker (container runtime)
+- AWS CLI
+- NGINX container
 
 ---
 
