@@ -1,10 +1,8 @@
 # 🚀 AWS Project – Amazon EKS Kubernetes Deployment
-
 ---
-
 # 📌 Project Overview
 
-This project demonstrates a complete Kubernetes deployment on AWS using Amazon EKS. It includes provisioning an EKS cluster, deploying a containerized application, exposing it via a LoadBalancer, performing scaling operations, executing rolling updates, and cleaning up all AWS resources.
+This project demonstrates **a complete Kubernetes deployment on AWS using Amazon EKS**. It includes provisioning an EKS cluster, deploying a containerized application, exposing it via **a LoadBalancer, performing scaling operations, executing rolling updates, and cleaning up all AWS resources**.
 
 🏗️ Architecture
 Internet
