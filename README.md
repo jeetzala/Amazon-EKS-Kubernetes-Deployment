@@ -169,31 +169,31 @@ Confirmed application still running after update.
 
 ---
 
-🧹 Cleanup Steps
+## 🧹 Cleanup Steps
 
-To avoid AWS charges:
+### To avoid AWS charges:
 
-kubectl delete svc nginx-service
-kubectl delete deployment nginx-deployment
-eksctl delete cluster --name eks-project-11 --region us-east-1
+- kubectl delete svc nginx-service
+- kubectl delete deployment nginx-deployment
+- eksctl delete cluster --name eks-project-11 --region us-east-1
+- Also terminated EC2 instance.
 
-Also terminated EC2 instance.
+---  
 
-📚 Key Learnings
-Amazon EKS cluster creation
-Kubernetes deployments & services
-LoadBalancer exposure
-Scaling applications
-Rolling updates in Kubernetes
-AWS CLI + eksctl workflow
-Cloud resource cleanup
-🏁 Project Outcome
+## 📚 Key Learnings
+
+- Amazon EKS cluster creation
+- Kubernetes deployments & services
+- LoadBalancer exposure
+- Scaling applications
+- Rolling updates in Kubernetes
+- AWS CLI + eksctl workflow
+- Cloud resource cleanup
+
+---
+
+## 🏁 Project Outcome
 
 Successfully deployed a fully functional Kubernetes application on AWS EKS, demonstrating production-level DevOps and cloud engineering skills.
 
-🚀 Status
-
-✔ Project Completed
-✔ All AWS resources cleaned
-✔ Ready for portfolio
 
