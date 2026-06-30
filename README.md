@@ -78,22 +78,23 @@ Connected to instance using PEM key.
 
 ### 4️⃣ Create EKS Cluster
 
-Command used:
+#### Command used:
 
-eksctl create cluster \
---name eks-project-11 \
---region us-east-1 \
---nodegroup-name worker-nodes \
---node-type t3.small \
---nodes 2 \
---nodes-min 1 \
---nodes-max 3 \
---managed
+- eksctl create cluster \
+- --name eks-project-11 \
+- --region us-east-1 \
+- --nodegroup-name worker-nodes \
+- --node-type t3.small \
+- --nodes 2 \
+- --nodes-min 1 \
+- --nodes-max 3 \
+- --managed
 
-📸 Screenshot:
+![EC2 Instance Running](Screenshots/04-eks-cluster-created.png)
 
-04-eks-cluster-created.png
-5️⃣ Verify Cluster Nodes
+---
+
+### 5️⃣ Verify Cluster Nodes
 kubectl get nodes
 
 📸 Screenshot:
