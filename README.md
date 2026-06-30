@@ -42,18 +42,18 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 
 # ⚙️ Step-by-Step Implementation
 
-## 1️⃣ EC2 Management Instance Setup
-Created EC2 instance (eks-management)
-Installed required tools:
-kubectl
-eksctl
-AWS CLI
-Docker
-Git
+### 1️⃣ EC2 Management Instance Setup
 
-📸 Screenshot:
+- Created EC2 instance (eks-management)
+- Installed required tools:
+- kubectl
+- eksctl
+- AWS CLI
+- Docker
+- Git
 
-01-ec2-management-instance.png
+![EC2 Instance Running](Screenshots/01-ec2-management-instance.png)
+
 2️⃣ SSH Connection to EC2
 
 Connected to instance using PEM key.
