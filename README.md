@@ -192,12 +192,13 @@ Confirmed application still running after update.
 
 ---
 
-## 👨‍💻 Author
-
-Jeet Zala
-AWS Cloud & DevOps Portfolio Project
 ## 🏁 Project Outcome
 
 Successfully deployed a fully functional Kubernetes application on AWS EKS, demonstrating production-level DevOps and cloud engineering skills.
 
+---
 
+## 👨‍💻 Author
+
+Jeet Zala
+AWS Cloud & DevOps Portfolio Project
