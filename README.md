@@ -117,52 +117,58 @@ kubectl get nodes
 ---
 
 ### 7️⃣ Expose Application via LoadBalancer
-kubectl expose deployment nginx-deployment \
---type=LoadBalancer \
---name=nginx-service \
---port=80
 
-📸 Screenshot:
+- kubectl expose deployment nginx-deployment \
+- --type=LoadBalancer \
+- --name=nginx-service \
+- --port=80
 
-07-loadbalancer-service.png
-8️⃣ Access Application in Browser
+![EC2 Instance Running](Screenshots/07-loadbalancer-service.png)
 
-Accessed using LoadBalancer DNS.
+---
 
-Displayed default NGINX page.
+### 8️⃣ Access Application in Browser
 
-📸 Screenshot:
+- Accessed using LoadBalancer DNS.
 
-08-nginx-browser-output.png
-9️⃣ Scaling Test
+- Displayed default NGINX page.
 
-Scaled deployment:
+![EC2 Instance Running](Screenshots/08-nginx-browser-output.png)
 
-kubectl scale deployment nginx-deployment --replicas=4
+---
 
-📸 Screenshot:
+### 9️⃣ Scaling Test
 
-09-pods-scaling-4-replicas.png
-🔟 Rolling Update
+#### Scaled deployment:
 
-Updated image:
+- kubectl scale deployment nginx-deployment --replicas=4
 
-nginx:1.25
+![EC2 Instance Running](Screenshots/09-pods-scaling-4-replicas.png)
 
-Verified rollout:
+---
 
-kubectl rollout status deployment nginx-deployment
+### 🔟 Rolling Update
 
-📸 Screenshot:
+#### Updated image:
 
-10-rolling-update-success.png
-1️⃣1️⃣ Final Application Verification
+- nginx:1.25
+
+#### Verified rollout:
+
+- kubectl rollout status deployment nginx-deployment
+
+![EC2 Instance Running](Screenshots/10-rolling-update-success.png)
+
+--- 
+
+### 1️⃣1️⃣ Final Application Verification
 
 Confirmed application still running after update.
 
-📸 Screenshot:
+![EC2 Instance Running](Screenshots/11-app-working-after-rolling-update.png)
 
-11-app-working-after-rolling-update.png
+---
+
 🧹 Cleanup Steps
 
 To avoid AWS charges:
