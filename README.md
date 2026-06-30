@@ -54,14 +54,17 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 
 ![EC2 Instance Running](Screenshots/01-ec2-management-instance.png)
 
-2️⃣ SSH Connection to EC2
+---
+
+### 2️⃣ SSH Connection to EC2
 
 Connected to instance using PEM key.
 
-📸 Screenshot:
+![EC2 Instance Running](Screenshots/02-ssh-connected.png)
 
-02-ssh-connected.png
-3️⃣ Tool Installation Verification
+---
+
+### 3️⃣ Tool Installation Verification
 
 Verified installed tools:
 
