@@ -11,22 +11,10 @@ It includes provisioning an EKS cluster, deploying a containerized application, 
 ---
 
 ## 🏗️ Architecture Diagram
-Internet
-   │
-   ▼
-AWS Load Balancer (ELB)
-   │
-   ▼
-Kubernetes Service (LoadBalancer)
-   │
-   ▼
-EKS Cluster (Control Plane)
-   │
-   ▼
-Worker Nodes (EC2 t3.small)
-   │
-   ▼
-Pods (NGINX Containers)
+
+![Architecture Diagram](Screenshots/architecture-diagram.png)
+
+---
 🛠️ Technologies Used
 Amazon EKS (Elastic Kubernetes Service)
 EC2 (t3.small worker nodes)
